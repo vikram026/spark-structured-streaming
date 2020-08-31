@@ -1,0 +1,18 @@
+{
+  "namespace": "com.genericAvro",
+  "type": "record",
+  "name": "Apple",
+  "fields": [
+    {
+      "name": "color",
+      "type": "string",
+      "avro.java.string": "String",
+      "default": ""
+    },
+    {
+      "name": "weight",
+      "type": "int"
+    }
+  ]
+}
+
